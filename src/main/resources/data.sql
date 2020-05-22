@@ -12,11 +12,11 @@ INSERT INTO course (id_type, id_trainer, title, description,start_date,end_date)
   (2,1,'Formation React','Une formation React pour les experts.','2020-03-26','2020-03-31'),
   (3,1,'Formation Angular','Une formation Angular pour les débutants.','2020-04-23','2020-04-26');
 
-INSERT INTO intern (email_person) VALUES
+    INSERT INTO intern (email_person) VALUES
   ('said@email.com'),
   ('youcef@email.com'),
-  ('mamado@email.com'),
-  ('paul@email.com');
+  ('mohamed@email.com'),
+  ('adangote@sqli.com');
 
 INSERT INTO review (intern_id,course_id,created_on,score) VALUES
   (1,2,'2020-01-02',3),
